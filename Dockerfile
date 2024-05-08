@@ -1,5 +1,5 @@
 FROM julia:latest
 
-COPY test.jl /test.jl
+COPY factorial.jl /factorial.jl
 
-CMD ["julia", "/test.jl"]
+CMD ["julia", "/factorial.jl"]
